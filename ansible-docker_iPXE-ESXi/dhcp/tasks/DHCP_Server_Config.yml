@@ -1,6 +1,0 @@
----
-
-   - name: Apply Template for DHCPD.CONF file
-     ansible.builtin.template:
-       src: templates/dhcpd.j2
-       dest: "./{{role_name}}/files/dhcpd.conf"
